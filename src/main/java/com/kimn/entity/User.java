@@ -9,6 +9,9 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+
 /**
  * <p>
  * 
@@ -28,10 +31,13 @@ public class User implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
+    @NotBlank(message = "使用者名稱不能為空白")
     private String username;
 
     private String avatar;
 
+    @NotBlank(message = "信箱不能為空白")
+    @Email(message = "信箱格式不正確")
     private String email;
 
     private String password;
