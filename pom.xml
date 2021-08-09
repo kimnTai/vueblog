@@ -84,6 +84,14 @@
             <artifactId>spring-boot-starter-validation</artifactId>
             <version>2.4.1</version>
         </dependency>
+        <!--解決JwtUtils 報 spring boot Configuration Annotation Proessor no configured -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+
 
     </dependencies>
 

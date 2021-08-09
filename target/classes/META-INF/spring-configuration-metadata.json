@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "kimn.jwt",
+      "type": "com.kimn.util.JwtUtils",
+      "sourceType": "com.kimn.util.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "kimn.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.kimn.util.JwtUtils"
+    },
+    {
+      "name": "kimn.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.kimn.util.JwtUtils"
+    },
+    {
+      "name": "kimn.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.kimn.util.JwtUtils"
+    }
+  ],
+  "hints": []
+}

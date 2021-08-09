@@ -16,7 +16,8 @@ import java.util.Date;
 @Slf4j
 @Data
 @Component
-@ConfigurationProperties(prefix = "markerhub.jwt")
+@ConfigurationProperties(prefix = "kimn.jwt")
+// 必须與application.yml中的kimn:   jwt: 的kimn名稱相同。
 public class JwtUtils {
 
     private String secret;

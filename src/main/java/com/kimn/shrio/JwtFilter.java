@@ -1,7 +1,5 @@
 package com.kimn.shrio;
 
-import cn.hutool.http.server.HttpServerRequest;
-import cn.hutool.http.server.HttpServerResponse;
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.kimn.common.lang.Result;
@@ -29,15 +27,13 @@ public class JwtFilter extends AuthenticatingFilter {
     JwtUtils jwtUtils;
 
     @Override
-    protected AuthenticationToken createToken(ServletRequest servletRequest, ServletResponse servletResponse)
-            throws Exception {
-
+    protected AuthenticationToken createToken(ServletRequest servletRequest, ServletResponse servletResponse) {
+        // 獲取 token
         HttpServletRequest request = (HttpServletRequest) servletRequest;
         String jwt = request.getHeader("Authorization");
         if (StringUtils.isEmpty(jwt)) {
             return null;
         }
-
         return new JwtToken(jwt);
     }
 
@@ -51,13 +47,13 @@ public class JwtFilter extends AuthenticatingFilter {
 
             return true;
         } else {
-            // 校驗 JWT
+            // 判斷是否已過期
             Claims claim = jwtUtils.getClaimByToken(jwt);
             if (claim == null || jwtUtils.isTokenExpired(claim.getExpiration())) {
                 throw new ExpiredCredentialsException("token已失效，請重新登錄");
             }
 
-            // 執行登陸
+            // 執行自動登入
             return executeLogin(servletRequest, servletResponse);
         }
     }
