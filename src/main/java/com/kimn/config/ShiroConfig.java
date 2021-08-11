@@ -1,7 +1,7 @@
 package com.kimn.config;
 
-import com.kimn.shrio.AccountRealm;
-import com.kimn.shrio.JwtFilter;
+import com.kimn.shiro.AccountRealm;
+import com.kimn.shiro.JwtFilter;
 import org.apache.shiro.mgt.SessionsSecurityManager;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.session.mgt.SessionManager;

@@ -1,6 +1,6 @@
 package com.kimn.util;
 
-import com.kimn.shrio.AccountProfile;
+import com.kimn.shiro.AccountProfile;
 import org.apache.shiro.SecurityUtils;
 
 public class ShiroUtil {

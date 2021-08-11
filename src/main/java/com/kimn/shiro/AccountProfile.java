@@ -1,4 +1,4 @@
-package com.kimn.shrio;
+package com.kimn.shiro;
 
 import lombok.Data;
 

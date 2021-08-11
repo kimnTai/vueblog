@@ -1,4 +1,4 @@
-package com.kimn.shrio;
+package com.kimn.shiro;
 
 import cn.hutool.core.bean.BeanUtil;
 import com.kimn.entity.User;

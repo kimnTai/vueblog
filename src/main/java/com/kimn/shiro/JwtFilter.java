@@ -1,4 +1,4 @@
-package com.kimn.shrio;
+package com.kimn.shiro;
 
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
