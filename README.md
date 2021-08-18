@@ -21,5 +21,9 @@ SpringBoot + Vue 前後端分離 Blog
     * axios (HTTP 客戶端)
     * v-md-editor (markdown編輯器)
 * VueRouter 路由配置
-* axios.js   全局axios攔截器
-* permission.js 路由權限攔截
+* Header    頭部組件
+* stroe     
+    * 儲存token    至 localStorage
+    * 儲存userInfo 至 sessionStorage
+* axios.js      => 全局axios攔截器
+* permission.js => 路由權限攔截
