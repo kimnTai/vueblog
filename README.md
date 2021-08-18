@@ -12,3 +12,14 @@ SpringBoot + Vue 前後端分離 Blog
 * CorsConfig 、JwtFilter 需跨域處理
 * GlobalExceptionHandler 全局異常處理
 * Result 統一結果封裝
+
+前端開發總結
+---
+* 使用技術
+    * Vue3 (核心框架)
+    * Element Plus (樣式美化)
+    * axios (HTTP 客戶端)
+    * v-md-editor (markdown編輯器)
+* VueRouter 路由配置
+* axios.js   全局axios攔截器
+* permission.js 路由權限攔截
