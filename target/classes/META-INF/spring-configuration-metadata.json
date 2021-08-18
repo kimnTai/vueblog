@@ -10,8 +10,7 @@
     {
       "name": "kimn.jwt.expire",
       "type": "java.lang.Long",
-      "sourceType": "com.kimn.util.JwtUtils",
-      "defaultValue": 0
+      "sourceType": "com.kimn.util.JwtUtils"
     },
     {
       "name": "kimn.jwt.header",
