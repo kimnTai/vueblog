@@ -27,4 +27,5 @@ SpringBoot + Vue 前後端分離 Blog
     * 儲存userInfo 至 sessionStorage
 * axios.js      => 全局axios攔截器
 * permission.js => 路由權限攔截
-
+---
+學習來源 [MarkerHub](https://juejin.cn/post/6844903823966732302#heading-29)
