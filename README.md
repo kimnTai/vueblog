@@ -1,5 +1,5 @@
 SpringBoot + Vue 前後端分離 Blog
-![image](https://i.imgur.com/XkeR5nJ.mp4)
+
 ---
 後端開發總結
 ---
@@ -29,4 +29,5 @@ SpringBoot + Vue 前後端分離 Blog
 * axios.js      => 全局axios攔截器
 * permission.js => 路由權限攔截
 ---
+![image](https://i.imgur.com/XkeR5nJ.mp4)
 學習來源 [MarkerHub](https://juejin.cn/post/6844903823966732302#heading-29)
