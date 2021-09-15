@@ -1,5 +1,5 @@
 SpringBoot + Vue 前後端分離 Blog
-![image](https://imgur.com/XkeR5nJ)
+![image](https://i.imgur.com/XkeR5nJ.mp4)
 ---
 後端開發總結
 ---
